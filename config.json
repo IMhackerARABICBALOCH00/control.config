@@ -1,0 +1,18 @@
+{
+  "interface": {
+    "private_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "address": "10.66.66.2/24",
+    "dns": "1.1.1.1",
+    "mtu": 1280
+  },
+  "peer": {
+    "public_key": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+    "preshared_key": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz",
+    "endpoint": "your.vpnserver.com:51820",
+    "allowed_ips": "0.0.0.0/0, ::/0",
+    "persistent_keepalive": 25
+  },
+  "included_applications": [
+    "com.tencent.ig"
+  ]
+}
